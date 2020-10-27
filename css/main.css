@@ -449,7 +449,7 @@ header #socials a {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center center scroll;
+    background: url("https://images.unsplash.com/photo-1442458017215-285b83f65851?ixlib=rb-1.2.1&auto=format&fit=crop&w=1575&q=80") black no-repeat center center scroll;
   }
   header video {
     display: none;
