@@ -1,0 +1,15 @@
+footer {
+  background: #000;
+  text-align: center;
+  word-spacing: 4rem;
+  padding: 1%;
+  #social-media {
+    a {
+      font-size: 3rem;
+      color: #fff;
+      &:hover {
+        color: #cc6699;
+      }
+    }
+  }
+}

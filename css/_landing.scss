@@ -1,0 +1,42 @@
+.frame {
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  #gl {
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+  .frame__content {
+    pointer-events: none;
+    text-align: center;
+    color: #000;
+    h1 {
+      text-shadow: 2px 2px #cc6699, 3px 3px #cc6699, 4px 4px #cc6699,
+        5px 5px #cc6699;
+      font-size: 8rem;
+    }
+    p {
+      font-family: "Press Start 2P";
+      width: 50%;
+      margin: 0 auto !important;
+    }
+  }
+}
+
+.frame > * {
+  position: relative;
+}
+
+canvas {
+  display: block;
+  z-index: 1000004;
+}

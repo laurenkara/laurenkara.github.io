@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'PlainBlack';
+    src: url('fonts/PlainBlack-Normal.woff2') format('woff2'),
+        url('fonts/PlainBlack-Normal.woff') format('woff'),
+        url('fonts/PlainBlack-Normal.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

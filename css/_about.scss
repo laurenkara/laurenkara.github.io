@@ -1,0 +1,33 @@
+#about {
+  text-align: center;
+  line-height: 350%;
+  width: 100%;
+  background: linear-gradient(to bottom right, #cc6699, #76bef9);
+  #about-section {
+    margin: 0 auto !important;
+    width: 90%;
+  }
+  #about-photo {
+    background: url(https://images.unsplash.com/photo-1442458017215-285b83f65851?ixlib=rb-1.2.1&auto=format&fit=crop&w=1575&q=80)
+      rgb(70, 12, 12);
+    background-size: contain;
+    padding: 20px;
+    background-blend-mode: exclusion;
+    img {
+      mix-blend-mode: exclusion;
+    }
+  }
+  #about-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p {
+      font-family: "Press Start 2P";
+      margin-bottom: 10px !important;
+    }
+    img {
+      width: 200px;
+    }
+  }
+}

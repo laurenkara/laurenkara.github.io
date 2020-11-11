@@ -1,0 +1,32 @@
+#contact {
+  text-align: center;
+  background: linear-gradient(to top left, #cc6699, #76bef9);
+  #form {
+    width: 70%;
+    margin: 0 auto !important;
+    font-family: "Press Start 2P";
+    color: #000;
+    ::placeholder {
+      color: #000;
+    }
+    .hide-label {
+      display: none;
+    }
+    input[type="text"] {
+      background: #d46a6f;
+      border: 6px dashed #712395;
+    }
+    textarea {
+      background: #d46a6f;
+      border: 6px dashed #712395;
+    }
+    input[type="submit"] {
+      border: 6px dashed #712395;
+      background: #d46a6f;
+      &:hover {
+        border: 6px dashed #d46a6f;
+        background: #712395;
+      }
+    }
+  }
+}

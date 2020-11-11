@@ -1,0 +1,49 @@
+#portfolio {
+  text-align: center;
+  background: linear-gradient(to top left, #cc6699, #76bef9);
+  #my-portfolio {
+    width: 90%;
+    margin: 0 auto !important;
+    img {
+      width: 100%;
+      &:hover {
+        filter: invert(90%) blur(1px) hue-rotate(115deg);
+      }
+    }
+    .grid {
+      text-align: center;
+      max-width: 95vw;
+      margin: 2.5vw auto;
+    }
+
+    .grid-item {
+      padding: 5px;
+      box-sizing: border-box;
+      display: inline;
+    }
+
+    @media (min-width: 500px) {
+      .grid-item {
+        width: 50%;
+      }
+    }
+
+    @media (min-width: 1000px) {
+      .grid-item {
+        width: 33.333%;
+      }
+    }
+
+    @media (min-width: 1700px) {
+      .grid-item {
+        width: 25%;
+      }
+    }
+
+    @media (min-width: 2100px) {
+      .grid-item {
+        width: 20%;
+      }
+    }
+  }
+}
